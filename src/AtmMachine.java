@@ -6,9 +6,9 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 public class AtmMachine {
-    private static final String URL = "jdbc:mysql://localhost:3306/atm_db";
-    private static final String USER = "root";
-    private static final String PASSWORD = "pass123";
+    private static final String URL = "jdbc:mysql://localhost:3306/YOUR_DATABASE_NAME";
+    private static final String USER = "YOUR_MYSQL_USERNAME";
+    private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
     
     public static void main(String[] args) {
         initializeDatabase();
